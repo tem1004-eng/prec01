@@ -1,0 +1,7 @@
+{
+  "name": "Nova Voice Recorder",
+  "description": "A sleek, modern, and professional voice recorder for mobile and desktop with real-time visualization and unlimited recording duration.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

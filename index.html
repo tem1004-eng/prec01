@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>필통 클래식 녹음기</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --radio-wood: #4a2c1d;
+            --radio-gold: #c5a059;
+            --radio-cream: #f4ece1;
+            --radio-dark: #1a1a1a;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #121212;
+            background-image: radial-gradient(circle at 50% 50%, #1e1e1e 0%, #0a0a0a 100%);
+            -webkit-tap-highlight-color: transparent;
+            overflow: hidden;
+        }
+        .wood-panel {
+            background: linear-gradient(145deg, #5d3a28, #3e2114);
+            box-shadow: inset 0 2px 5px rgba(255,255,255,0.1), 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .speaker-mesh {
+            background-image: radial-gradient(#1a1a1a 1px, transparent 1px);
+            background-size: 4px 4px;
+            background-color: #2a2a2a;
+            box-shadow: inset 0 5px 15px rgba(0,0,0,0.8);
+        }
+        .gold-border {
+            border: 2px solid var(--radio-gold);
+        }
+        .gold-text {
+            color: var(--radio-gold);
+        }
+        .knob-shadow {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.4), inset 0 1px 2px rgba(255,255,255,0.2);
+        }
+        .dial-font {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .brand-font {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="text-slate-200 antialiased">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
